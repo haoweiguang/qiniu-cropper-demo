@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>图片裁剪</title>
+    <link rel="stylesheet" href="css/cropper.css"/>
+    <link rel="stylesheet" href="css/cropperindex.css"/>
+</head>
+<body>
+<div id="content">
+    <form id="NewQyq">
+        <div class="SeeCont">
+            <p><span style="color: red;">*</span>选择图片：</p>
+            <div class="SeeImg image_container">
+                <img class="myimg" src=''/>
+            </div>
+            <button class="TxText xzBtn" id="imgReplaceBtn" type="button">上传图片</button>
+            <br/>
+            base64地址：<input name="url" id="imgShowurlbase" style="width: 400px;" value="f12打开控制台查看"/>
+            <br/>
+            七牛云地址： <input name="url" id="imgShowurl" style="width: 400px;"/>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="js/upImg.js"></script>
+<script>
+    var $url = "http://192.168.30.111:8080/hqr/";  //后台接口地址，根据自己情况更改
+    upImg(2 / 1);//图片的比例
+</script>
+</body>
+</html>
