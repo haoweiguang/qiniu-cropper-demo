@@ -130,7 +130,7 @@ upImg(1/1)  //裁剪1:1比例的图片
 
 参考：
 
-* [gitbug上的cropper项目](https://github.com/fengyuanchen/cropper)
+* [github上的cropper项目](https://github.com/fengyuanchen/cropper)
 * [利用cropper插件裁剪本地图片，然后将裁剪过后的base64图片上传至七牛云空间](http://www.cnblogs.com/lamb97/p/6547089.html)
 * [cropper项目的中文介绍](http://jqcool.net/image-cropper.html)
 * [如何上传base64编码图片到七牛云](https://developer.qiniu.com/kodo/kb/1326/how-to-upload-photos-to-seven-niuyun-base64-code)
